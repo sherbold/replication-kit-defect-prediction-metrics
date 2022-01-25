@@ -1,4 +1,4 @@
-# Thesis Replication Kit
+# Replication Kit
 
 This repository serves as replication kit for the paper "Exploring the relationship between performance metrics and cost saving potential of defect prediction models". 
 
