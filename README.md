@@ -25,8 +25,8 @@ For Ubuntu 20.04 the setup to start a Jupyter Lab for the execution of the noteb
 ```    
 sudo apt-get update    
 sudo apt-get install python3-venv build-essential python3-dev graphviz
-git clone https://github.com/steffentunkel/thesis_replication_kit
-cd thesis_replication_kit/
+git clone https://github.com/sherbold/replication-kit-defect-prediction-metrics
+cd replication-kit-defect-prediction-metrics/
 python3 -m venv venv
 source venv/bin/activate
 pip install jupyterlab
