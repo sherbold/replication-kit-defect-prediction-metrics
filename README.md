@@ -44,7 +44,7 @@ For the analysis of our _performance metrics vs. cost saving potential_ dataset 
 #### Run Defect Prediction Experiments in CrossPare
 
 1. Setup the [CrossPare](https://github.com/sherbold/CrossPare) tool.
-2. Load the code metric [dataset](https://user.informatik.uni-goettingen.de/~sherbol/replicationkits/replication-kit-emse-2020-defect-prediction-data/release-level-data.tar.gz) and unpack it (archive: 587MB, unpacked: 6.57GB).
+2. Load the code metric [dataset](https://zenodo.org/record/5675024/files/release-level-data.tar.gz?download=1) and unpack it (archive: 587MB, unpacked: 6.57GB).
 3. Copy the `Crosspare/testdata/mynbou/` directory with the full dataset.
 4. Setup a MySQL database and define the settings in a `mysql.cred` file in the CrossPare directory.
 5. Run CrossPare with the folder `configCrossPare/bootstrap` as argument for the bootstrap experiment. These configurations need to be run 100 times each.
