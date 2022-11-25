@@ -1,4 +1,4 @@
-# Thesis Replication Kit
+# Replication Kit
 
 This repository serves as replication kit for the paper "Exploring the relationship between performance metrics and cost saving potential of defect prediction models". 
 
@@ -25,8 +25,8 @@ For Ubuntu 20.04 the setup to start a Jupyter Lab for the execution of the noteb
 ```    
 sudo apt-get update    
 sudo apt-get install python3-venv build-essential python3-dev graphviz
-git clone https://github.com/steffentunkel/thesis_replication_kit
-cd thesis_replication_kit/
+git clone https://github.com/sherbold/replication-kit-defect-prediction-metrics
+cd replication-kit-defect-prediction-metrics/
 python3 -m venv venv
 source venv/bin/activate
 pip install jupyterlab
@@ -44,7 +44,7 @@ For the analysis of our _performance metrics vs. cost saving potential_ dataset 
 #### Run Defect Prediction Experiments in CrossPare
 
 1. Setup the [CrossPare](https://github.com/sherbold/CrossPare) tool.
-2. Load the code metric [dataset](https://user.informatik.uni-goettingen.de/~sherbol/replicationkits/replication-kit-emse-2020-defect-prediction-data/release-level-data.tar.gz) and unpack it (archive: 587MB, unpacked: 6.57GB).
+2. Load the code metric [dataset](https://zenodo.org/record/5675024/files/release-level-data.tar.gz?download=1) and unpack it (archive: 587MB, unpacked: 6.57GB).
 3. Copy the `Crosspare/testdata/mynbou/` directory with the full dataset.
 4. Setup a MySQL database and define the settings in a `mysql.cred` file in the CrossPare directory.
 5. Run CrossPare with the folder `configCrossPare/bootstrap` as argument for the bootstrap experiment. These configurations need to be run 100 times each.
